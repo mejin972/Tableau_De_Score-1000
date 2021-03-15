@@ -1,0 +1,42 @@
+#victory{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color:rgba(156, 156, 156, 0.226);
+    display:none;
+
+}
+#victory h1{
+    text-align: center;
+}
+
+#victory i{
+    margin: auto;
+    align-items: center;
+    animation-duration: 10s;
+    animation-name: change;
+    
+}
+
+#trophy{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#ok{
+    
+    text-align: center;
+    margin: auto;
+}
+
+@keyframes change{
+    from{
+        color:black;
+    }
+    25%{
+        color: red;
+    }
+    to{
+        color: blue;
+    }
+}

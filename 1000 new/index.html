@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="name_player.js" defer=""></script>
+    <script src="sendScore_player.js" defer=""></script>
+    <script src = "create_table.js" defer=""></script>
+    <script src="calcule.js" defer=""></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/83eda6c13e.js" crossorigin="anonymous"></script>
+    <script src="winner.js" defer=""></script>
+    <link rel="stylesheet" type="text/css" href="style_victoire.css">
+    <title>1000</title>
+</head>
+<body>
+    <header>
+        <h1>TABLEAU DE SCORE</h1>
+    </header>
+    <main>
+        <div id="nbrPlayer">
+            <input type ="button" id="set_player" value="Add Player">
+            <input type="button" id="reset" value="Reset" disabled = true>
+            <div id="affNbrplayer">
+                <span></span>
+            </div>
+
+        </div>
+        <div id="Score">
+
+        </div>
+        <div id="table">
+
+        </div>
+        <div id="victory">
+            <h1> <span id="name_winner"></span> YOU WIN!!!! </h1>
+            <div id="trophy">
+                <i class="fas fa-trophy fa-5x"></i>
+            </div>
+            <input type="button" id="ok" value="OK">
+           
+        </div>
+    </main>
+    
+</body>
+</html>
