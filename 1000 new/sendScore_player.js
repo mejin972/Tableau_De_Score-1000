@@ -87,7 +87,7 @@ function valueTble() {
         }
         total.innerText = sum;
         element2.value = "";
-        if (total.innerText == 1000) {
+        if (total.innerText >= 1000) {
             //alert(total.offsetParent.childNodes[0].innerText + " "+"YOU WIN");
             affNameWinner = total.offsetParent.childNodes[0].innerText;
             buttAddPlayer.disabled = false;
